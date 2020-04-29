@@ -11,7 +11,6 @@ import { selectCurrentUser } from '../../redux/user/user.selector';
 import { selectCartHidden } from '../../redux/cart/cart.selector';
 
 const Header = ({ currentUser, hidden, ...otherPorps }) => {
-    console.log(currentUser);
 
     return (
         <div className="header" >
